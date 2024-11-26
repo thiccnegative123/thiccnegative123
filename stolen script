@@ -1,10 +1,3 @@
-local Gaze = [[
-Gaze Bypass Tutorial:
-"https://youtube.com/shorts/z1yCdkbXTi4?si=f1ol4wCL4jxW3jtP"
-]]
-
-everyClipboard = setclipboard or toclipboard or set_clipboard or (Clipboard and Clipboard.set)
-
 local GazerHa_Cooldown = 0.8
 
 if not game:IsLoaded() then
@@ -55,15 +48,6 @@ screenGui:Destroy()
 end
 
 fadeTextThatMadeByChatGpt("Made By HAXAREBEST1")
-fadeTextThatMadeByChatGpt("ROBLOX STOP PATCHING MY OPEN SOURCED DICK \u{1F62D}")
-fadeTextThatMadeByChatGpt("Unpatched, but its not good as before.")
-
-fadeTextThatMadeByChatGpt("TO MAKE THE BYPASS WORK\nRead Your Clipboard")
-
-everyClipboard(tostring(Gaze))
-task.wait(0.5)
-
-fadeTextThatMadeByChatGpt("READ THE TUTORIAL ON YOUR COPY")
 
 local function isEmoji(c)
 if (code >= 0x1F600 and code <= 0x1F64F) or 
